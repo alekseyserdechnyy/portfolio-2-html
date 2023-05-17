@@ -1,0 +1,100 @@
+@media (max-width: 620px) {
+
+    /* General styles */
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .general-heading {
+        margin-bottom: 10px;
+
+        font-size: 30px;
+    }
+
+    .general-paragraph {
+        font-size: 16px;
+    }
+
+    /* Freelancer portfolio */
+
+    .header {
+        min-height: unset;
+    }
+
+    .header .header__wrapper h1 {
+        font-size: 30px;
+    }
+
+    .header .header__wrapper h1 strong {
+        font-size: 40px;
+    }
+
+    /* Nav */
+
+    .nav-row {
+        justify-content: space-between;
+    }
+
+    .dark-mode-btn {
+        order: 0;
+    }
+
+    /* Section */
+
+    section.section-projects {
+        padding: 40px 0;
+    }
+
+    section h2 {
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+
+    section .card-row {
+        justify-content: center;
+    }
+
+    section .card-row a h3 {
+        font-size: 22px;
+    }
+
+    .footer {
+        padding: 40px 0 30px;
+    }
+
+    .footer ul {
+        column-gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer ul li {
+        width: 28px;
+    }
+
+    /* Skills */
+
+    section.section-skills .text-skills {
+        row-gap: 20px;
+    }
+
+    /* Contacts */
+
+    .section-contacts {
+        padding: 40px 0 50px;
+    }
+
+    section.section-contacts .text-contacts {
+        row-gap: 20px;
+    }
+    
+    /* Project page */
+
+    section.project-video-service .project-details p {
+        margin-bottom: 20px;
+
+        font-size: 22px;
+
+    }
+    
+}
